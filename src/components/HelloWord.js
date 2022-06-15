@@ -1,4 +1,4 @@
-import Frase from './frase'
+import Frase from './Frase'
 
 function HelloWorld() {
     return /* html */ (

@@ -1,7 +1,7 @@
 import './App.css'
-import HelloWorld from './components/HelloWord'
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
+import Frase from './components/Frase'
 
 function App() {
 
@@ -10,7 +10,12 @@ function App() {
   return (
     <div className="App">
 
-      <HelloWorld />
+      <h1>Testando CSS</h1>
+      <Frase />
+      <Frase />
+      <br />
+      <br />
+      <br />
       <SayMyName nome="Henrique" />
       <SayMyName nome="João" />
       <SayMyName nome={nome} />
